@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hipkathon</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <div class="w-100 d-flex justify-content-center">
+        <div class="canvas p-4">
+            <div class="w-100 d-flex justify-content-center">
+                <div class="mb-4 header">Hi<span class="hotpink">p</span>kathon</div>
+            </div>
+            <div class="w-100 d-flex justify-content-center">
+                <div class="my-5 cat-wrapper">
+                    <div class="cat" onClick="meow()">
+                        <div class="ear ear--left"></div>
+                        <div class="ear ear--right"></div>
+                        <div class="face">
+                            <div class="eye eye--left">
+                            <div class="eye-pupil"></div>
+                        </div>
+                        <div class="eye eye--right">
+                            <div class="eye-pupil"></div>
+                        </div>
+                        <div class="muzzle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="title">목표</div>
+            <div class="content mt-4 mb-5">
+                <ul>
+                    <li>힙한 앱/서비스 구현</li>
+                </ul>
+            </div>
+            <div class="title">목적</div>
+            <div class="content mt-4 mb-5">
+                <ul>
+                    <li>힙한 마인드 공유</li>
+                    <li>잠들어있던 개발 욕구 깨우기</li>
+                    <li>주도적으로 개발할 수 있는 역량 증진</li>
+                </ul>
+            </div>
+            <div class="title">일정</div>
+            <table class="w-100 mt-4 mb-5">
+                <thead>
+                    <td>날짜</td>
+                    <td>시간</td>
+                    <td>내용</td>
+                </thead>
+                <tr>
+                    <td rowspan="4">11. 12</td>
+                    <td>19:00 ~ 19:30</td>
+                    <td>아이디어 발표</td>
+                </tr>
+                <tr>
+                    <td>19:30 ~ 20:00</td>
+                    <td>팀 빌딩 (2인 1팀)</td>
+                </tr>
+                <tr>
+                    <td>20:00 ~ 23:00</td>
+                    <td>팀별 개발</td>
+                </tr>
+                <tr>
+                    <td>23:00 ~ </td>
+                    <td>쇼미10 시청</td>
+                </tr>
+                <tr>
+                    <td rowspan="7">11. 13</td>
+                    <td>08:00 ~ 09:00</td>
+                    <td>조식</td>
+                </tr>
+                <tr>
+                    <td>09:00 ~ 12:00</td>
+                    <td>팀별 개발</td>
+                </tr>
+                <tr>
+                    <td>12:00 ~ 13:30</td>
+                    <td>중식</td>
+                </tr>
+                <tr>
+                    <td>13:30 ~ 14:00</td>
+                    <td>중간 발표</td>
+                </tr>
+                <tr>
+                    <td>14:00 ~ 18:00</td>
+                    <td>팀별 개발</td>
+                </tr>
+                <tr>
+                    <td>18:00 ~ 19:30</td>
+                    <td>석식</td>
+                </tr>
+                <tr>
+                    <td>19:30 ~ </td>
+                    <td>팀별 개발</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">11. 14</td>
+                    <td>08:00 ~ 09:00</td>
+                    <td>조식</td>
+                </tr>
+                <tr>
+                    <td>09:00 ~ 12:00</td>
+                    <td>팀별 개발</td>
+                </tr>
+                <tr>
+                    <td>12:00 ~ 13:30</td>
+                    <td>중식</td>
+                </tr>
+                <tr>
+                    <td>13:30 ~ </td>
+                    <td>최종 발표 및 시상</td>
+                </tr>
+            </table>
+            <div class="title">참가 인원</div>
+            <div class="content mt-4 mb-5">
+                <ul>
+                    <li>힙한 개발자 8명 (간식 제공)</li>
+                </ul>
+            </div>
+            <div class="title">시상</div>
+            <div class="content mt-4 mb-5">
+                <ul>
+                    <li>대상 - 갤럭시 버즈 프로 (1팀)</li>
+                    <li>우수상 - 즐거움 (3팀)</li>
+                </ul>
+            </div>
+            <div class="title">심사</div>
+            <div class="content mt-4 mb-5">
+                <ul>
+                    <li>가장 힙한 팀을 투표로 선정</li>
+                </ul>
+            </div>
+            <div class="title">장소</div>
+            <div class="content mt-4 mb-5">
+                <ul>
+                    <li>경기도 광명시 태영데시앙 102동</li>
+                </ul>
+                <a href="https://map.kakao.com/?urlX=473845&urlY=1088926&urlLevel=4&map_type=TYPE_MAP&map_hybrid=false" target="_blank"><img class="w-100" src="https://map2.daum.net/map/mapservice?FORMAT=PNG&SCALE=5&MX=473845&MY=1088926&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" style="border:1px solid #ccc"></a><div class="hide" style="overflow:hidden;padding:7px 11px;border:1px solid #dfdfdf;border-color:rgba(0,0,0,.1);border-radius:0 0 2px 2px;background-color:#f9f9f9;width:100%;"><strong style="float: left;"><img src="https://t1.daumcdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16" alt="카카오맵"></strong><div style="float: right;position:relative"><a style="font-size:12px;text-decoration:none;float:left;height:15px;padding-top:1px;line-height:15px;color:#000" target="_blank" href="https://map.kakao.com/?urlX=473845&urlY=1088926&urlLevel=4&map_type=TYPE_MAP&map_hybrid=false">지도 크게 보기</a></div></div>
+            </div>
+            <div class="title">문의</div>
+            <div class="content mt-4 mb-5">
+                <ul>
+                    <li>lojpark@gmail.com</li>
+                </ul>
+            </div>
+            <div class="w-100 d-flex justify-content-center">
+                <a href="https://forms.gle/LRmj1sa99cr5Xfqu9" target="_blank" class="p-3 register">참가 신청</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
