@@ -1,7 +1,10 @@
 # Hipkathon
 
 ## Result
-- TBD
+- AB([Application](https://github.com/hipkathon/ab-application) / [Server](https://github.com/hipkathon/ab-application-api-server))
+- [Hip-Hop](https://github.com/hipkathon/hip-hop)
+- [별걸 다 경매](https://github.com/hipkathon/Auction-for-nothing-server)
+- Gacha
 
 ## References
 
